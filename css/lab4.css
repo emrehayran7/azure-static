@@ -1,0 +1,80 @@
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    color: blueviolet;
+    padding: 5px;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 30px;
+    border-color: tomato;
+}
+
+nav {
+    block-size: 50px;
+    margin: 50px;
+}
+
+a {
+    font-size: 25px;
+    font-style: italic;
+    background-position: top;
+    margin: 75px;
+    padding: 30px;
+}
+
+p {
+    font-size: 25px;
+    font-variant: small-caps;
+    line-height: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    position: sticky;
+    margin-right: 100px;
+    clear: right;
+}
+
+hr {
+    block-size: 1px;
+    background-color: aqua;
+}
+
+#tesla {
+    position: fixed;
+    float: right;
+}
+
+.ein {
+    margin: 750px;
+}
+
+.top {
+    float: right;
+}
+
+.none {
+    float: left;
+}
+
+.center {
+    float: none;
+    top: 50%;
+    left: 50%;
+}
+
+input {
+    background-color: aqua;
+}
+
+.a {
+    position: relative;
+    left: 40%;
+}
+
+#freeform {
+    color: black;
+    background-color: aqua;
+    font-style: italic;
+}
+
+#ab {
+    position: absolute;
+}

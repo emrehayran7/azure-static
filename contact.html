@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/lab4.css" />
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+
+    <form action="mailto:emre-hayran@hotmail.com" method="post" enctype="text/plain" autocomplete="on">
+        <div>
+            <label for="say">Name</label>
+            <input name="name" id="say" value="emre hayran" />
+        </div>
+        <div>
+            <label for="to">Surname</label>
+            <input name="Surname" id="to" />
+        </div>
+        <div>
+            <label for="mail">E-mail</label>
+            <input name="mail" id="mail" />
+        </div>
+        <div>
+            <input type="radio" id="htmll" name="gender" value="Male" checked />
+            <label for="html">Male</label>
+            <input type="radio" id="html" name="gender" value="Female" />
+            <br />
+            <label for="html">Female</label>
+            <br />
+            <input type="checkbox" id="confirm" name="confirm" value="confirm" />
+            <label for="confirm">please confirm the usage agreement</label>
+        </div>
+        <div>
+            <label for="choose">Choose an asistan:</label>
+
+            <select name="chose" id="chose">
+          <option value="emre">Mr.Emre</option>
+          <option value="murat">Mr.Murat</option>
+          <option value="Ayse">Ms.Ayse</option>
+        </select>
+        </div>
+        <div>
+            <label for="freeform">Please Write your question:</label>
+            <br />
+            <textarea id="freeform" name="freeform" rows="5" cols="50" maxlength="200">
+  Enter text here...
+  </textarea
+        >
+      </div>
+      <div>
+        <button style="background-color: red">Send</button>
+        <input type="reset" id="clear" name="celart" value="clear" />
+      </div>
+    </form>
+  </body>
+</html>

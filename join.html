@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="/css/lab4.css" />
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form action="mailto:emre-hayran@hotmail.com" method="post" enctype="text/plain" autocomplete="on">
+            <div>
+                <label for="say">Name</label><br>
+                <input name="name" id="say" value="" autofocus>
+            </div>
+            <div>
+                <label for="to">Surname</label><br>
+                <input name="Surname" id="to" required>
+            </div>
+            <div>
+                <label for="mail">E-mail</label><br>
+                <input type="email" name="mail" id="mail" required autocomplete="off">
+            </div>
+            <div>
+                <label for="month">Choose your month of birth:</label><br>
+                <input list="months" name="month" id="month">
+                <datalist id="months">
+       <option value="January">
+       <option value="February">
+       <option value="March">
+       <option value="April">
+       <option value="May">
+       <option value="June">
+       <option value="July">
+       <option value="August">
+       <option value="September">
+       <option value="October">
+       <option value="November">
+       <option value="December">
+
+       </option>
+       </datalist>
+            </div>
+            <div>
+                <label for="phone">Please enter your phone number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="+48-123-45-678" pattern="[A-Za-z]{3}-[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            </div>
+            <div>
+                <label for="happiness"> Choose your happiness level </label><br>
+                <input type="range" name="happiness" id="happiness" min="1" max="10>
+</div>
+    <div>
+      <input type=" radio " id="htmll " name="gender " value="Male " checked>
+      <label for="html " >Bachelor Degrees</label>
+      <input type="radio " id="html " name="gender " value="Female " checked>
+      <label for="html ">Master Degrees</label>
+      <br>
+      <label for="confirm " >please choose your language level</label><br>
+
+      <input type="checkbox " id="confirm " name="confirm ">
+      <label for="confirm " >A2</label><br>
+      <input type="checkbox " id="confirmm " name="confirmm ">
+      <label for="confirmm " >B2</label><br>
+      <input type="checkbox " id="confirmmm " name="confirmmm " checked>
+      <label for="confirmmm ">C1</label><br>
+
+    </div>
+    <div>
+      <label for="choose ">Choose your favorite color:</label>
+
+    <input type="color " name="col " value="#FFFF00 " >
+
+  </select>
+    </div>
+    <div>
+      < label for="freeform ">Please introduce yourself:</label>
+    <br>
+      <textarea id="freeform " name="freeform " rows="5 " cols="50 " maxlength="200 " style="background-color: aqua; ">
+    Enter text here...
+    </textarea>
+    </div>
+    <div>
+      <button>Send</button>
+      <input type="reset " id="clear " name="celart " value="clear ">
+    </div>
+  </form >
+  </section>
+</body>
+
+</html>
