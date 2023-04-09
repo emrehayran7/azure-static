@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emre Hayran</title>
+
+    <link rel="stylesheet" href="/css/lab4.css" />
+    <style>
+        nav {
+            background-image: url("images/back.jpg");
+            background-repeat: repeat-x;
+            background-position: top;
+            background-attachment: scroll;
+        }
+        
+        body {
+            background-color: antiquewhite;
+        }
+        
+        table {
+            background-image: url("images/back.jpg");
+        }
+        
+        td {
+            color: yellow;
+            font-style: italic;
+        }
+        
+        th {
+            color: aqua;
+            font-style: italic;
+        }
+        
+        tr {
+            background-image: url("images/back.jpg");
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Life Stories of Famous People</h1>
+        <nav>
+            <div class="none"><a href="tesla.html">Tesla</a></div>
+            <div class="none"><a href="einstein.html">Einstein</a></div>
+
+            <div class="top"><a href="contact.html">Contact Us</a></div>
+            <div class="top"><a href="join.html">Join Us</a></div>
+            <div class="center"><a href="solveeq.html">TASK3</a></div>
+        </nav>
+        <p>
+            You can read the story of the famous person you want by clicking on the pictures below
+        </p>
+        <hr />
+
+        <a href="tesla.html" target="_blank" id="tesla">
+            <img src="images/tesla.jpg" width="200" height="200" alt="nicolatesla" />
+        </a>
+        <hr />
+        <a href="einstein.html" target="_blank" class="ein">
+            <img src="images/albert.jpg" width="200" height="200" alt="albert" />
+        </a>
+
+        <hr />
+    </main>
+    <aside>
+        <h2 style="color: red">Coming Soon</h2>
+    </aside>
+    <details>
+        <summary>Details</summary>
+        <label for=" load ">Loading</label>
+        <meter id="load " value="0.9 ">90%</meter>
+        <ol>
+            <li>Johannes Kepler</li>
+            <li>Blaise Pascal</li>
+        </ol>
+        <label for="loadd ">Loading</label>
+        <meter id="loadd " value="2 " min="0 " max="10 ">loading</meter><br />
+        <ul>
+            <li>Leonardo Fibonacci</li>
+            <li>Galileo Galilei</li>
+        </ul>
+        <dl>
+            <dt>Albert Einstein</dt>
+            <dd>uploaded 1 day ago</dd>
+            <dt>Nikola Tesla</dt>
+            <dd>uploaded 2 day ago</dd>
+        </dl>
+        <table border="1 ">
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Albert Einstein</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Nikola Tesla</td>
+                <td>MCroatia</td>
+            </tr>
+        </table>
+    </details>
+
+    <footer>
+        <p id="ab">&#169; 2021-2022 Copyright Emre Hayran</p>
+    </footer>
+</body>
+
+</html>
